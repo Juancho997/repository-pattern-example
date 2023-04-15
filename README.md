@@ -1,7 +1,7 @@
 <h1 align="center">Express Typescript Service Skeleton</h1>
 
 <p align="center">
-  Skeleton for new typescript services based on express
+  Skeleton for new typescript services based on express, using an Hexagonal Architecture and Design Patterns
 </p>
 
 
