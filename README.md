@@ -9,7 +9,7 @@
 
 - [Installing](#installing)
 - [Building](#building)
-- [Run locally](#Run locally)
+- [Run locally](#Running)
 
 ## Installing
 
@@ -25,7 +25,7 @@ npm install
 ```bash
 npm run build
 ```
-## Run locally
+## Running
 
 ```bash
 npm run start:dev
