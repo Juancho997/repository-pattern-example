@@ -1,3 +1,5 @@
+import { ObjectValidator } from "../../../utils/object-validator";
+
 export interface IUpdateProductDTO {
     name?: string,
     description?: string,
@@ -24,12 +26,7 @@ export class ProductMapper {
     };
 
     public static toUpdaterDTO(raw: any): IUpdateProductDTO {
-
-        const entries = Object.entries(raw);
-        const filteredEntries = entries.filter(([key, value]) => value !== undefined);
-        const filteredDTO = Object.fromEntries(filteredEntries);
-
-        return filteredDTO;
+        return ObjectValidator.filterUnusedKeys(raw);
     }
 
 };
