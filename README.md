@@ -4,17 +4,12 @@
   Skeleton for new typescript services based on express
 </p>
 
-<p align="center">
-    <a href="https://github.com/AlbertHernandez/express-typescript-service-skeleton/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/express-typescript-service-skeleton/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
-</p>
 
 ## Table of Contents
 
 - [Installing](#installing)
 - [Building](#building)
-- [Testing](#testing)
-- [Linting](#linting)
-- [Contributing](#contributing)
+- [Run locally](#Run locally)
 
 ## Installing
 
@@ -30,25 +25,8 @@ npm install
 ```bash
 npm run build
 ```
-
-## Testing
-
-### Jest with Testing Library
+## Run locally
 
 ```bash
-npm run test
-```
-
-## Linting
-
-Run the linter
-
-```bash
-npm run lint
-```
-
-Fix lint issues automatically
-
-```bash
-npm run lint:fix
+npm run start:dev
 ```
