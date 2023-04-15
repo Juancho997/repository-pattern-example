@@ -1,8 +1,7 @@
 export class ResponseCreator {
 
-    response: string | any[];
     statusCode: number;
-
+    response: string | any[];
 
     constructor(response: string | any[], statusCode: number) {
         this.response = response

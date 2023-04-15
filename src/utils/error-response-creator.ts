@@ -2,8 +2,9 @@ export class ErrorResponseCreator {
     response: string;
     statusCode: number;
 
-    constructor() {
-        this.response = 'Something went wrong';
-        this.statusCode = 500;
+    constructor(response: string, statusCode: number){
+        this.response = response;
+        this.statusCode = statusCode;
     }
+
 }
